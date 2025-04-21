@@ -1,0 +1,34 @@
+{
+	"name": "google-photos-to-immich-sync",
+	"version": "1.0.0",
+	"description": "Sincronizza foto da Google Photos a Immich",
+	"main": "dist/main.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/main.js",
+		"dev": "ts-node src/main.ts"
+	},
+	"keywords": [
+		"google-photos",
+		"immich",
+		"sync",
+		"photos"
+	],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"@types/open": "^6.2.1",
+		"axios": "^1.6.2",
+		"dotenv": "^16.3.1",
+		"form-data": "^4.0.0",
+		"gaxios": "^6.7.1",
+		"google-auth-library": "^9.15.1",
+		"googleapis": "^148.0.0",
+		"open": "^10.1.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.9.0",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.2.2"
+	}
+}

@@ -1,0 +1,7 @@
+node_modules
+build
+.idea
+.env
+google_token.json
+synced_photos.json
+dist/
