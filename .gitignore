@@ -5,3 +5,4 @@ build
 google_token.json
 synced_photos.json
 dist/
+sync.log
